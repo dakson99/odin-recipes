@@ -1,0 +1,1 @@
+In this project you can create a website with basic recipes. The skills I will build are HTML and later CSS.
