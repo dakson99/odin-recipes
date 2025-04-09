@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+  }
+  
+  /* Section backgrounds */
+  
+  header,
+  #hero,
+  footer {
+    background-color: #1f2937;
+  }
+  
+  #features,
+  #cta {
+    background-color: #fff;
+  }
+  
+  #testimonials {
+    background-color: #e5e7eb;
+  }
+  
+  /* Text colors */
+  
+  header,
+  #hero,
+  #cta,
+  .button {
+    color: #f9faf8;
+  }
+  
+  nav a,
+  p,
+  footer {
+    color: #e5e7eb;
+  }
+  
+  #features,
+  #testimonials {
+    color: #1f2937;
+  }
+  
+  /* Text sizes */
+  
+  .logo,
+  h1,
+  h2,
+  cite {
+    font-weight: 900;
+  }
+  
+  #cta h2,
+  .button {
+    font-weight: 700;
+  }
+  
+  nav a,
+  blockquote {
+    font-weight: 300;
+  }
+  
+  blockquote {
+    font-style: italic;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2,
+  blockquote {
+    font-size: 36px;
+  }
+  
+  header .logo,
+  #cta h2 {
+    font-size: 24px;
+  }
+  
+  p,
+  figcaption,
+  nav,
+  cite,
+  footer {
+    font-size: 18px;
+  }
+  
+  /* Layout: global */
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,
+  header,
+  main > section,
+  footer {
+    display: flex;
+  }
+  
+  body {
+    flex-direction: column;
+  }
+  
+  header,
+  main > section,
+  footer {
+    justify-content: center;
+  }
+  
+  header, footer {
+    padding: 16px;
+  }
+  
+  main > section {
+    padding: 64px 128px;
+  }
+  
+  header > div,
+  section > div,
+  footer > div {
+    display: flex;
+    width: 1024px;
+  }
+  
+  /* Layout: header */
+  
+  header > div {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    display: flex;
+    gap: 16px;
+  }
+  
+  /* Layout: hero */
+  
+  #hero > div {
+    justify-content: center;
+    gap: 64px;
+  }
+  
+  #hero .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  #hero .content h1 {
+    margin-bottom: 8px;
+  }
+  
+  #hero .content p {
+    padding-bottom: 12px;
+  }
+  
+  #hero .image {
+    flex: 1;
+    background-color: gray;
+  }
+  
+  /* Layout: features */
+  
+  #features {
+    padding: 64px 16px;
+  }
+  
+  #features > div {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  
+  .card {
+    width: 200px;
+  }
+  
+  .card img {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 2px solid #3c82f6;
+    border-radius: 16px;
+  }
+  
+  .card figcaption {
+    text-align: center;
+  }
+  
+  /* Layout: testimonials */
+  
+  #testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .testimonial cite {
+    margin-left: auto;
+  }
+  
+  /* Layout: CTA */
+  
+  #cta > div {
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    padding: 32px;
+  }
+  
+  #cta .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Layout: footer */
+  
+  footer {
+    padding: 16px;
+  }
+  
+  footer > div {
+    justify-content: center;
+  }
+  
+  /* Buttons */
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  .button {
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  #hero .button,
+  #cta > div {
+    background-color: #3882f6;
+  }
+  
+  #cta .button {
+    border: 2px solid #fff;
+  }
+  
+  #hero .button:hover,
+  #cta .button:hover {
+    background-color: #306ed2;
+  }
